@@ -1,0 +1,72 @@
+.cal{
+   width: 600px;
+   height: 150px;
+   margin: auto; 
+   font-size: 40px;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-align: center;
+
+}
+.inp{
+    align-self: center;
+    width: 100%;
+    height: 80px;
+    font-size: 40px;
+    text-align: right;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 14px 16px 0px gray;
+    margin: auto;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.cal-ch{
+    margin-top: 30px;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-around;
+   
+}
+.ch{
+    align-self: center;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(212, 218, 218);
+    text-align: center;
+    font-size: 40px;
+    margin:10px;
+   
+    box-shadow: 0px 4px 6px 0px gray;
+    display: table-cell;
+    vertical-align:middle;
+    border-radius: 5px;
+    border:1px solid rgb(212, 218, 218);
+}
+.oper{
+    margin-top: 30px;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-between; 
+}
+.cal-op{
+    margin-top: 390px;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin:5px;
+    justify-content:space-around;
+}
+.r{
+    border: 1px solid rgba(255, 10, 10, 0.8);
+}
+.g{
+    border: 1px solid rgba(10, 235, 70, 0.8);
+}
